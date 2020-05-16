@@ -1,5 +1,8 @@
 print('conditional statement')
 
+#always use try and except so that you 
+#can avoid tracebacks 
+
 istr=input('Enter anything :')
 try:
     astr=int(istr)
